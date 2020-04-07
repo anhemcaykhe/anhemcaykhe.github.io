@@ -41,42 +41,42 @@
             <div class="grid">
                 <div class="grid-item">
                     <a href="unknown.png">
-                        <img src="unknown.png" class="img-fluid" alt="">
+                        <img src="unknown.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown3.png">
-                        <img src="unknown3.png" class="img-fluid" alt="">
+                        <img src="unknown3.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown2.png">
-                        <img src="unknown2.png" class="img-fluid" alt="">
+                        <img src="unknown2.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown4.png">
-                        <img src="unknown4.png" class="img-fluid" alt="">
+                        <img src="unknown4.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown5.png">
-                        <img src="unknown5.png" class="img-fluid" alt="">
+                        <img src="unknown5.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown6.png">
-                        <img src="unknown6.png" class="img-fluid" alt="">
+                        <img src="unknown6.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown7.png">
-                        <img src="unknown7.png" class="img-fluid" alt="">
+                        <img src="unknown7.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
                 <div class="grid-item">
                     <a href="unknown7.png">
-                        <img src="unknown7.png" class="img-fluid" alt="">
+                        <img src="unknown7.png" class="img-fluid lazyload" alt="">
                     </a>
                 </div>
             </div>
@@ -86,6 +86,7 @@
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
 <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
@@ -101,6 +102,8 @@
         type: 'image'
         // other options
     });
+
+    $("img.lazyload").lazyload();
 </script>
 </body>
 </html>
