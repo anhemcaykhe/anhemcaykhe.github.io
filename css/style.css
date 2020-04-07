@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #121212;
+}
+
+*{
+    box-sizing: border-box !important;
+}
+
+.menu {
+
+}
+
+.b-red {
+    border-bottom: 2px solid red;
+}
+
+.b-red a:hover {
+    color: red !important;
+}
+
+.b-red.active a {
+    color: red !important;
+}
+
+.b-blue {
+    border-bottom: 2px solid #3794FF;
+}
+
+.b-blue a:hover {
+    color: #3794FF !important;
+}
+
+.b-blue.active a {
+    color: #3794FF !important;
+}
+
+.b-purple {
+    border-bottom: 2px solid #BC3CDE;
+}
+
+.b-purple a:hover {
+    color: #BC3CDE !important;
+}
+
+.b-purple.active a {
+    color: #BC3CDE !important;
+}
+
+.b-green {
+    border-bottom: 2px solid #00DFDA;
+}
+
+.b-green a:hover {
+    color: #00DFDA !important;
+}
+
+.b-green.active a {
+    color: #00DFDA !important;
+}
+
+.menu li {
+
+    padding-bottom: 3px;
+}
+
+.menu a {
+    font-weight: bold;
+    transition: color .3s;
+}
+
+.main {
+
+}
+
+.main h5 {
+    word-break: break-all;
+}
+
+.grid-item {
+    width: 25%;
+}
+
+.grid-item--width2 {
+    width: 50%;
+}
+
+.images{
+    border:3px solid #ffc107;
+}
+
+.admin {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.admin p {
+    color: #121212;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+    padding: 3px;
+}
