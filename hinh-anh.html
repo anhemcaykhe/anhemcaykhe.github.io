@@ -97,11 +97,12 @@
     //     itemSelector: '.grid-item',
     //     layoutMode: 'masonry'
     // });
-
-    var $container = $('.grid');
-    // initialize
-    $container.masonry({
-        itemSelector: '.grid-item'
+    $(window).load(function(){
+        var $container = $('.grid');
+        // initialize
+        $container.masonry({
+            itemSelector: '.grid-item'
+        });
     });
 
     $('.grid-item a').magnificPopup({
