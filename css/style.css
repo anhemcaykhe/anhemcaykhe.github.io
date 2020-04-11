@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif !important;
-    background: url("../bg.jpg") no-repeat;
+    background: url("../img/bg.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -24,6 +24,19 @@ body {
 .b-red.active a {
     color: red !important;
 }
+
+.b-pink {
+    border-bottom: 2px solid hotpink;
+}
+
+.b-pink a:hover {
+    color: hotpink !important;
+}
+
+.b-pink.active a {
+    color: hotpink !important;
+}
+
 
 .b-blue {
     border-bottom: 2px solid #3794FF;
@@ -94,7 +107,7 @@ body {
 }
 
 .images {
-    border: 3px solid #dc3545!important;
+    border: 3px solid #dc3545 !important;
 }
 
 .admin {
@@ -102,9 +115,9 @@ body {
 
 }
 
-.container-menu{
-    background: rgba(255,255,255,0.25);
-    border:1px solid darkgray;
+.container-menu {
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid darkgray;
     padding: 15px;
 }
 
